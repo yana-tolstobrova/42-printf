@@ -6,7 +6,7 @@
 /*   By: ytolstob <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/21 23:07:20 by ytolstob          #+#    #+#             */
-/*   Updated: 2024/12/21 23:07:25 by ytolstob         ###   ########.fr       */
+/*   Updated: 2024/12/22 21:25:03 by ytolstob         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,7 +90,7 @@ int	ft_putptr(void *pointer)
 
 	i = 0;
 	if (!pointer)
-		return (ft_putstr("(null)"));
+		return (ft_putstr("(nil)"));
 	i += write(1, "0x", 2);
 	num = (unsigned long)pointer;
 	i += ft_puthex(num, 0);
