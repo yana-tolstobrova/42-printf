@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   printf.c                                           :+:      :+:    :+:   */
+/*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ytolstob <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 #include <stdio.h>
 
 int	ft_printf(const char *format, ...)
@@ -53,22 +53,22 @@ int	ft_printf(const char *format, ...)
 	return (res);
 }
 
-int	main()
-{
-	ft_printf("%cu", 'a');
+//int	main()
+//{
+//	ft_printf("%cu", 'a');
 	//printf("og: %cu", 'a');
 	//printf("%c", '\n');
 	//ft_printf("%s", "test string");
-	printf("%c", '\n');
-	ft_printf("%p", main);
-	printf("%c", '\n');
-	ft_printf("%d", 42);
+//	printf("%c", '\n');
+//	ft_printf("%p", main);
+//	printf("%c", '\n');
+//	ft_printf("%d", 42);
 	//printf("%c", 'a');
-	ft_printf("%X", 47483648);
-	printf("%c", '\n');
-	ft_printf("%%");
+//	ft_printf("%X", 47483648);
+//	printf("%c", '\n');
+//	ft_printf("%%");
 	//printf("%c", '\n');
 	//printf("%p", main);
 	//printf("%s", "test string");
 	//printf("%%");
-}	
+////}	
